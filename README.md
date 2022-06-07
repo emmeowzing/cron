@@ -1,2 +1,4 @@
-# base
-Base repo for creating other repos with default configuration files
+Cron
+----
+
+A collection of cron scripts I run.

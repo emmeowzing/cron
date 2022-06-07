@@ -69,7 +69,7 @@ main()
     for file in ${b350_gaming_pc[@]}
     do
         # Make the path to the files so that a chroot would look like `/`.
-        if ! [ -d "${destination}$(dirname $file)" ]
+        if ! [ -d "${destination}$(dirname "$file")" ]
         then
             mkdir -p "${destination}$(dirname "$file")"
         fi
@@ -86,5 +86,5 @@ main()
 
 main
 
-unset -f clearMntPt
+unset -f clearMntPt main
 unset destination b350_gaming_pc file dataset deletionlog

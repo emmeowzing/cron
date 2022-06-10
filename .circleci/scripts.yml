@@ -11,7 +11,7 @@ executors:
 workflows:
   version: 2
 
-  on-commit:
+  scripts:
     jobs:
       - shellcheck/check:
           dir: ./scripts

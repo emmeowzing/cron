@@ -1,4 +1,4 @@
 #! /bin/bash
-# Scrub homePool once a week.
+# Scrub homePool.
 
 zpool scrub homePool
